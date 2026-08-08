@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model"
+message: "If you use this benchmark, please cite the paper."
+type: dataset
+authors:
+  - family-names: Lu
+    given-names: Xiaoxin
+  - family-names: Zhang
+    given-names: Ranran Haoran
+  - family-names: Zhang
+    given-names: Rui
+license: MIT
+version: 1.0.0
+repository-code: "https://github.com/psunlpgroup/SIMMER"
+keywords:
+  - large language models
+  - task planning
+  - embodied agents
+  - benchmark
+  - world model
+  - latent failure
+preferred-citation:
+  type: conference-paper
+  title: "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model"
+  authors:
+    - family-names: Lu
+      given-names: Xiaoxin
+    - family-names: Zhang
+      given-names: Ranran Haoran
+    - family-names: Zhang
+      given-names: Rui
+  collection-title: "Conference on Language Modeling (COLM)"
+  year: 2026

@@ -1,0 +1,3054 @@
+{
+  "air_fryer": {
+    "properties": [
+      "heatsource",
+      "openable",
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "closed",
+      "empty",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "alfredo_sauce": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "pourable",
+      "condiment"
+    ],
+    "states": [
+      "full",
+      "room_temp"
+    ],
+    "location": "pantry"
+  },
+  "almond": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dry",
+      "raw",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "aluminum_foil": {
+    "properties": [
+      "grabbable",
+      "wrap_material",
+      "covering",
+      "foldable"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "apple": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "aubergine": {
+    "properties": [
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "avocado": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "bacon": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "cold",
+      "raw"
+    ],
+    "location": "fridge"
+  },
+  "baking_dish": {
+    "properties": [
+      "grabbable",
+      "oven_safe",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "baking_powder": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "baking_sheet": {
+    "properties": [
+      "grabbable",
+      "oven_safe",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "baking_soda": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "banana": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "clean",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "basil": {
+    "properties": [
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "fresh",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "basil_flakes": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "bay_leaf": {
+    "properties": [
+      "grabbable",
+      "seasoning"
+    ],
+    "states": [
+      "whole",
+      "dried"
+    ],
+    "location": "pantry"
+  },
+  "beef": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "beef_stock": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "beer": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "beet": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "bell_pepper": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "birch_bark": {
+    "properties": [
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "dry"
+    ],
+    "location": "pantry"
+  },
+  "black_pepper": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "blender": {
+    "properties": [
+      "openable",
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "closed",
+      "empty",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "blueberry": {
+    "properties": [
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "fridge"
+  },
+  "bottle": {
+    "properties": [
+      "container",
+      "grabbable",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "closed"
+    ],
+    "location": "cabinet"
+  },
+  "bouillon": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "bowl": {
+    "properties": [
+      "grabbable",
+      "receptacle",
+      "microwave_safe"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "bread": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "sliced"
+    ],
+    "location": "counter"
+  },
+  "bread_crumbs": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "brie": {
+    "properties": [
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "cold",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "brown_sugar": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "brownie": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "whole"
+    ],
+    "location": "cabinet"
+  },
+  "brush": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "butter": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable",
+      "spreadable"
+    ],
+    "states": [
+      "cold",
+      "solid"
+    ],
+    "location": "fridge"
+  },
+  "buttermilk": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "butternut_squash": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "cabinet": {
+    "properties": [
+      "container",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed"
+    ],
+    "location": "kitchen"
+  },
+  "cake": {
+    "properties": [
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "baked",
+      "single_layer",
+      "unglazed",
+      "cool"
+    ],
+    "location": "counter"
+  },
+  "caramel_candy": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full",
+      "solid"
+    ],
+    "location": "pantry"
+  },
+  "caramel_sauce": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "carrot": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "cayenne": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cbd_oil": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "cabinet"
+  },
+  "celery": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "chamomile": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dried",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cheddar_cheese": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "whole",
+      "cold"
+    ],
+    "location": "fridge"
+  },
+  "cheesecloth": {
+    "properties": [
+      "filter",
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "chicken_breast": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "chicken_broth": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "chili_powder": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "chives": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "chives_flakes": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "whole",
+      "dried"
+    ],
+    "location": "pantry"
+  },
+  "chocolate": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "breakable",
+      "grabbable"
+    ],
+    "states": [
+      "solid"
+    ],
+    "location": "pantry"
+  },
+  "chutney": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "cilantro": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "cinnamon": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "citric_acid": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "clove": {
+    "properties": [
+      "seasoning",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full",
+      "dry"
+    ],
+    "location": "pantry"
+  },
+  "cocoa_butter": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "spreadable",
+      "grabbable"
+    ],
+    "states": [
+      "solid",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "cocoa_powder": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "coconut_milk": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "coffee_beans": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "coffee_ground": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "coffee_machine": {
+    "properties": [
+      "heatsource",
+      "switchable",
+      "receptacle"
+    ],
+    "states": [
+      "empty",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "colander": {
+    "properties": [
+      "grabbable",
+      "receptacle",
+      "filter"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "condensed_milk": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "food_container": {
+    "properties": [
+      "airtight",
+      "container",
+      "grabbable",
+      "receptacle",
+      "openable"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "open"
+    ],
+    "location": "cabinet"
+  },
+  "cookie": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable",
+      "breakable"
+    ],
+    "states": [
+      "whole"
+    ],
+    "location": "cabinet"
+  },
+  "corn_syrup": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cornmeal": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cornstarch": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cottage_cheese": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "scoopable"
+    ],
+    "states": [
+      "full",
+      "cold"
+    ],
+    "location": "fridge"
+  },
+  "counter": {
+    "properties": [
+      "surface"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "kitchen"
+  },
+  "cream": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "cream_cheese": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "spreadable",
+      "scoopable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "cucumber": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "fridge"
+  },
+  "cumin": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cup": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "curry_powder": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "cutting_board": {
+    "properties": [
+      "grabbable",
+      "portable",
+      "surface"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "counter"
+  },
+  "dill": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable",
+      "seasoning"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "dish_towel": {
+    "properties": [
+      "absorbent",
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean",
+      "dry"
+    ],
+    "location": "drawer"
+  },
+  "double_boiler": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "dragon_fruit": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "clean"
+    ],
+    "location": "counter"
+  },
+  "drawer": {
+    "properties": [
+      "container",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed"
+    ],
+    "location": "kitchen"
+  },
+  "egg": {
+    "properties": [
+      "breakable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "fridge"
+  },
+  "evaporated_milk": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "fish": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "thawed"
+    ],
+    "location": "fridge"
+  },
+  "flavored_beverage": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "flavoring": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "flour": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "food_coloring": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "cabinet"
+  },
+  "fork": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "freezer": {
+    "properties": [
+      "container",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed",
+      "on"
+    ],
+    "location": "kitchen"
+  },
+  "freezer_bag": {
+    "properties": [
+      "openable",
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "open"
+    ],
+    "location": "drawer"
+  },
+  "fridge": {
+    "properties": [
+      "container",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed",
+      "on"
+    ],
+    "location": "kitchen"
+  },
+  "frozen_yogurt": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "scoopable"
+    ],
+    "states": [
+      "frozen"
+    ],
+    "location": "freezer"
+  },
+  "funnel": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "gammon": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "garlic": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "garlic_powder": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "gelatin": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "powder"
+    ],
+    "states": [
+      "dry",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "ginger": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "glass": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "glycerine": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "graham_cracker": {
+    "properties": [
+      "breakable",
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "grapes": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "dirty",
+      "on_stems",
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "grater": {
+    "properties": [
+      "grabbable",
+      "sharp",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "greek_yogurt": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "scoopable"
+    ],
+    "states": [
+      "chilled",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "green_chile": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "canned",
+      "chopped"
+    ],
+    "location": "pantry"
+  },
+  "green_onion": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "griddle": {
+    "properties": [
+      "heatsource",
+      "surface",
+      "switchable"
+    ],
+    "states": [
+      "off",
+      "empty",
+      "clean"
+    ],
+    "location": "kitchen"
+  },
+  "grill": {
+    "properties": [
+      "heatsource",
+      "switchable",
+      "surface"
+    ],
+    "states": [
+      "off",
+      "empty",
+      "clean"
+    ],
+    "location": "kitchen"
+  },
+  "grinder": {
+    "properties": [
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "empty",
+      "clean",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "ground_beef": {
+    "properties": [
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "fridge"
+  },
+  "ground_chicken": {
+    "properties": [
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "fridge"
+  },
+  "ground_pork": {
+    "properties": [
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "fridge"
+  },
+  "gum_base": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full",
+      "solid"
+    ],
+    "location": "pantry"
+  },
+  "hand_mixer": {
+    "properties": [
+      "grabbable",
+      "switchable",
+      "tool"
+    ],
+    "states": [
+      "clean",
+      "off"
+    ],
+    "location": "drawer"
+  },
+  "heavy_cream": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "hoisin_sauce": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "honey": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "spreadable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "ice": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "frozen",
+      "full"
+    ],
+    "location": "freezer"
+  },
+  "ice_cream": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "scoopable"
+    ],
+    "states": [
+      "frozen"
+    ],
+    "location": "freezer"
+  },
+  "jalapeno": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "clean"
+    ],
+    "location": "counter"
+  },
+  "jam": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "spreadable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "jar": {
+    "properties": [
+      "airtight",
+      "container",
+      "grabbable",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "closed"
+    ],
+    "location": "cabinet"
+  },
+  "juice": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "juicer": {
+    "properties": [
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "off",
+      "empty",
+      "clean"
+    ],
+    "location": "counter"
+  },
+  "ketchup": {
+    "properties": [
+      "condiment",
+      "grabbable",
+      "pourable",
+      "spreadable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "kinako": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "knife": {
+    "properties": [
+      "grabbable",
+      "sharp",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "lasagna_noodle": {
+    "properties": [
+      "grabbable",
+      "breakable"
+    ],
+    "states": [
+      "dry",
+      "uncooked"
+    ],
+    "location": "pantry"
+  },
+  "ladle": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "leek": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "lemon": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "lemon_juice": {
+    "properties": [
+      "edible",
+      "acidic",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "lentils": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dry",
+      "raw",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "lettuce": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "licorice_root": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dry",
+      "raw",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "lime": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "maple_syrup": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "marinara_sauce": {
+    "properties": [
+      "condiment",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "marshmallow": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "whole"
+    ],
+    "location": "cabinet"
+  },
+  "mayonnaise": {
+    "properties": [
+      "condiment",
+      "grabbable",
+      "pourable",
+      "spreadable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "microwave": {
+    "properties": [
+      "heatsource",
+      "openable",
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "closed",
+      "empty",
+      "off"
+    ],
+    "location": "kitchen"
+  },
+  "milk": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "mochiko": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "molasses": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "mold": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "mozzarella": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "whole",
+      "cold"
+    ],
+    "location": "fridge"
+  },
+  "muffin_pan": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "mug": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "mushroom": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "fridge"
+  },
+  "mustard": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "spreadable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "mustard_powder": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "nettles": {
+    "properties": [
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "counter"
+  },
+  "nori": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "breakable",
+      "grabbable"
+    ],
+    "states": [
+      "dry"
+    ],
+    "location": "pantry"
+  },
+  "nutmeg": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "seasoning"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "nuts": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "chopped"
+    ],
+    "location": "pantry"
+  },
+  "oil": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "spreadable",
+      "sprayable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "okra": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "onion": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "clean"
+    ],
+    "location": "pantry"
+  },
+  "orange": {
+    "properties": [
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "counter"
+  },
+  "oregano": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "clean"
+    ],
+    "location": "pantry"
+  },
+  "oven": {
+    "properties": [
+      "container",
+      "heatsource",
+      "openable",
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "closed",
+      "empty",
+      "off"
+    ],
+    "location": "kitchen"
+  },
+  "oxtail": {
+    "properties": [
+      "grabbable",
+      "cuttable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "oyster_sauce": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "pan": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "pancake_mix": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dry",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "pantry": {
+    "properties": [
+      "container",
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed"
+    ],
+    "location": "kitchen"
+  },
+  "paper_case": {
+    "properties": [
+      "disposable",
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "paper_towel": {
+    "properties": [
+      "absorbent",
+      "disposable",
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "dry"
+    ],
+    "location": "counter"
+  },
+  "parchment_paper": {
+    "properties": [
+      "grabbable",
+      "wrap_material",
+      "covering",
+      "foldable"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "parmesan": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "solid",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "parsley": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "seasoning"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "parsley_flakes": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "pasta": {
+    "properties": [
+      "grabbable",
+      "breakable"
+    ],
+    "states": [
+      "dry",
+      "uncooked"
+    ],
+    "location": "pantry"
+  },
+  "peach": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole",
+      "dirty"
+    ],
+    "location": "counter"
+  },
+  "peanut": {
+    "properties": [
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole",
+      "unshelled"
+    ],
+    "location": "counter"
+  },
+  "peas": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "frozen"
+    ],
+    "location": "freezer"
+  },
+  "peeler": {
+    "properties": [
+      "grabbable",
+      "sharp",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "peppers": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "pheasant": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "pie_crust": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "shapeable"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "counter"
+  },
+  "pike_fillet": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "pitcher": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "plastic_wrap": {
+    "properties": [
+      "covering",
+      "wrap_material",
+      "grabbable",
+      "foldable"
+    ],
+    "states": [
+      "roll_full"
+    ],
+    "location": "drawer"
+  },
+  "plate": {
+    "properties": [
+      "grabbable",
+      "receptacle",
+      "surface"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "pot": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "potato": {
+    "properties": [
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "dirty",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "potato_masher": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "powdered_sugar": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "pour_over_brewer": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "rack": {
+    "properties": [
+      "grabbable",
+      "surface"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "cabinet"
+  },
+  "red_wine": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "rice": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dry",
+      "full",
+      "raw"
+    ],
+    "location": "pantry"
+  },
+  "rice_cooker": {
+    "properties": [
+      "heatsource",
+      "receptacle",
+      "switchable",
+      "openable"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "off",
+      "closed"
+    ],
+    "location": "counter"
+  },
+  "rice_vinegar": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "ricotta": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable",
+      "spreadable"
+    ],
+    "states": [
+      "full",
+      "cold"
+    ],
+    "location": "fridge"
+  },
+  "rolling_mat": {
+    "properties": [
+      "grabbable",
+      "surface"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "rolling_pin": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "root_beer_extract": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "rosemary": {
+    "properties": [
+      "cuttable",
+      "edible",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "rosemary_flakes": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "dried",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "rutabaga": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "sage": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full",
+      "dried"
+    ],
+    "location": "pantry"
+  },
+  "salad_spinner": {
+    "properties": [
+      "grabbable",
+      "receptacle",
+      "openable",
+      "switchable"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "salsa": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "salt": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "saucepan": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "sausage": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "scissors": {
+    "properties": [
+      "grabbable",
+      "sharp",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "scoop": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "sesame_seed": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full",
+      "raw"
+    ],
+    "location": "pantry"
+  },
+  "shrimp": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "protein"
+    ],
+    "states": [
+      "raw",
+      "frozen",
+      "whole",
+      "dirty"
+    ],
+    "location": "freezer"
+  },
+  "sink": {
+    "properties": [
+      "receptacle",
+      "drain"
+    ],
+    "states": [
+      "empty"
+    ],
+    "location": "kitchen"
+  },
+  "siphon": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "skewer": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "slotted_spoon": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "soy_sauce": {
+    "properties": [
+      "condiment",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "soybean": {
+    "properties": [
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "dry",
+      "whole"
+    ],
+    "location": "pantry"
+  },
+  "spatula": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "spoon": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "sprinkles": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "stand_mixer": {
+    "properties": [
+      "appliance",
+      "switchable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "stove": {
+    "properties": [
+      "heatsource",
+      "surface",
+      "switchable"
+    ],
+    "states": [
+      "off"
+    ],
+    "location": "kitchen"
+  },
+  "strainer": {
+    "properties": [
+      "grabbable",
+      "receptacle",
+      "filter",
+      "tool"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "straw": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "strawberry": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "frozen",
+      "whole"
+    ],
+    "location": "freezer"
+  },
+  "sugar": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "sweetcorn": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "swiss_chard": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "tea_leaves": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dry",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "teapot": {
+    "properties": [
+      "grabbable",
+      "openable",
+      "pourable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty",
+      "closed"
+    ],
+    "location": "cabinet"
+  },
+  "thai_herb": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "dried",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "thyme_flakes": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "dried",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "thyme": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "cuttable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "tomatillo": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "tomato": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "edible"
+    ],
+    "states": [
+      "dirty",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "tomato_paste": {
+    "properties": [
+      "grabbable",
+      "scoopable",
+      "spreadable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "tomato_puree": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "tomato_sauce": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "condiment"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "tongs": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "tortilla": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable",
+      "foldable"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "pantry"
+  },
+  "trash_bin": {
+    "properties": [
+      "openable",
+      "receptacle"
+    ],
+    "states": [
+      "closed"
+    ],
+    "location": "kitchen"
+  },
+  "turnip": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "dirty",
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "vanilla": {
+    "properties": [
+      "flavoring",
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "cabinet"
+  },
+  "vinegar": {
+    "properties": [
+      "grabbable",
+      "pourable",
+      "seasoning"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "waffle_iron": {
+    "properties": [
+      "heatsource",
+      "receptacle",
+      "switchable"
+    ],
+    "states": [
+      "empty",
+      "off"
+    ],
+    "location": "counter"
+  },
+  "water": {
+    "properties": [
+      "switchable",
+      "fillable_source"
+    ],
+    "states": [
+      "off"
+    ],
+    "location": "sink"
+  },
+  "water_chestnut": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "fridge"
+  },
+  "whipped_cream": {
+    "properties": [
+      "edible",
+      "spreadable",
+      "grabbable"
+    ],
+    "states": [
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "whisk": {
+    "properties": [
+      "grabbable",
+      "tool"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "wok": {
+    "properties": [
+      "grabbable",
+      "heatable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  },
+  "wonton_wrapper": {
+    "properties": [
+      "cuttable",
+      "grabbable",
+      "foldable"
+    ],
+    "states": [
+      "raw"
+    ],
+    "location": "fridge"
+  },
+  "yeast": {
+    "properties": [
+      "grabbable",
+      "pourable"
+    ],
+    "states": [
+      "dry",
+      "full"
+    ],
+    "location": "pantry"
+  },
+  "yogurt": {
+    "properties": [
+      "edible",
+      "grabbable",
+      "pourable",
+      "spreadable"
+    ],
+    "states": [
+      "cold",
+      "full"
+    ],
+    "location": "fridge"
+  },
+  "zester": {
+    "properties": [
+      "grabbable",
+      "tool",
+      "sharp"
+    ],
+    "states": [
+      "clean"
+    ],
+    "location": "drawer"
+  },
+  "zucchini": {
+    "properties": [
+      "edible",
+      "cuttable",
+      "grabbable"
+    ],
+    "states": [
+      "raw",
+      "whole"
+    ],
+    "location": "counter"
+  },
+  "steamer": {
+    "properties": [
+      "grabbable",
+      "receptacle"
+    ],
+    "states": [
+      "clean",
+      "empty"
+    ],
+    "location": "cabinet"
+  }
+}

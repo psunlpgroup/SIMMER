@@ -1,0 +1,14 @@
+# Core evaluation (state machine executor + analysis).
+# The executor itself needs only the Python standard library.
+numpy>=1.24
+scipy>=1.10
+
+# LLM planners (scripts/generate_plan.py, scripts/baselines/).
+# Only needed for the provider you actually call.
+openai>=1.40           # GPT, and any OpenAI-compatible endpoint (vLLM, DeepSeek)
+anthropic>=0.34        # Claude
+google-genai>=1.0      # Gemini
+
+# Optional: locally-hosted open-weight models via transformers
+# torch
+# transformers

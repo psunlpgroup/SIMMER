@@ -1,0 +1,19 @@
+[
+  "close",
+  "discard",
+  "grab",
+  "heat",
+  "open",
+  "pour",
+  "put_on",
+  "put_in",
+  "serve",
+  "rinse",
+  "switch_off",
+  "switch_on",
+  "take_out",
+  "transfer",
+  "wait",
+  "walk",
+  "wash"
+]

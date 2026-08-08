@@ -1,0 +1,1242 @@
+{
+  "bake": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle",
+        "appliance",
+        "duration"
+      ],
+      "preconditions": [
+        "appliance_on",
+        "object_in_receptacle",
+        "receptacle_in_appliance"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_baked",
+        "object_hot"
+      ]
+    }
+  },
+  "beat": {
+    "definition": {
+      "args": [
+        "receptacle",
+        "tool"
+      ],
+      "preconditions": [
+        "receptacle_has_contents",
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "contents_beaten",
+        "contents_mixed"
+      ]
+    }
+  },
+  "blanch": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "receptacle_has_contents",
+        "contents_boiling",
+        "object_raw",
+        "object_in_receptacle"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_blanched",
+        "object_hot"
+      ]
+    }
+  },
+  "blend": {
+    "definition": {
+      "args": [
+        "appliance",
+        "object"
+      ],
+      "preconditions": [
+        "appliance_on",
+        "object_in_appliance"
+      ],
+      "effects": [
+        "object_blended"
+      ]
+    }
+  },
+  "boil": {
+    "definition": {
+      "args": [
+        "object?",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "receptacle_has_liquid",
+        "IF object THEN object_in_receptacle"
+      ],
+      "effects": [
+        "contents_boiling",
+        "IF object THEN object_cooked",
+        "IF object THEN object_hot"
+      ]
+    }
+  },
+  "brew": {
+    "definition": {
+      "args": [
+        "coffee_machine",
+        "coffee_beans"
+      ],
+      "preconditions": [
+        "coffee_machine_on",
+        "water_in_coffee_machine",
+        "coffee_beans_in_coffee_machine"
+      ],
+      "effects": [
+        "brewed_coffee_created"
+      ]
+    }
+  },
+  "brush": {
+    "definition": {
+      "args": [
+        "liquid",
+        "target",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "liquid_available"
+      ],
+      "effects": [
+        "target_coated_with_liquid"
+      ]
+    }
+  },
+  "refrigerate": {
+    "definition": {
+      "args": [
+        "object",
+        "fridge"
+      ],
+      "preconditions": [
+        "fridge_on",
+        "object_in_fridge"
+      ],
+      "effects": [
+        "object_chilled",
+        "time_passed"
+      ]
+    }
+  },
+  "cool": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_hot"
+      ],
+      "effects": [
+        "object_cooled_to_room_temp",
+        "time_passed"
+      ]
+    }
+  },
+  "chop": {
+    "definition": {
+      "args": [
+        "object",
+        "cutting_board",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_sharp",
+        "object_on_cutting_board",
+        "object_cuttable"
+      ],
+      "effects": [
+        "object_chopped",
+        "object_chunks_created"
+      ]
+    }
+  },
+  "close": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_openable",
+        "object_open"
+      ],
+      "effects": [
+        "object_closed"
+      ]
+    }
+  },
+  "cover": {
+    "definition": {
+      "args": [
+        "object",
+        "covering"
+      ],
+      "preconditions": [
+        "agent_holding_covering",
+        "object_on_surface_or_in_container"
+      ],
+      "effects": [
+        "object_covered",
+        "agent_hands_empty"
+      ]
+    }
+  },
+  "cut": {
+    "definition": {
+      "args": [
+        "object",
+        "cutting_board",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_sharp",
+        "object_cuttable",
+        "object_on_cutting_board"
+      ],
+      "effects": [
+        "object_cut",
+        "object_pieces_created"
+      ]
+    }
+  },
+  "dip": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "receptacle_has_contents"
+      ],
+      "effects": [
+        "object_coated"
+      ]
+    }
+  },
+  "drain": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "receptacle_has_liquid"
+      ],
+      "effects": [
+        "liquid_removed",
+        "object_drained"
+      ]
+    }
+  },
+  "discard": {
+    "definition": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "target_is_trash_bin"
+      ],
+      "effects": [
+        "object_disposed",
+        "object_in_target",
+        "agent_hands_empty"
+      ]
+    }
+  },
+  "drizzle": {
+    "definition": {
+      "args": [
+        "source",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_source"
+      ],
+      "effects": [
+        "source_applied_to_target",
+        "target_coated"
+      ]
+    }
+  },
+  "dry": {
+    "definition": {
+      "args": [
+        "object",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_is_absorbent",
+        "object_wet"
+      ],
+      "effects": [
+        "object_dry"
+      ]
+    }
+  },
+  "air_dry": {
+    "definition": {
+      "args": [
+        "object",
+        "duration"
+      ],
+      "preconditions": [
+        "object_wet"
+      ],
+      "effects": [
+        "object_dry"
+      ]
+    }
+  },
+  "fill": {
+    "definition": {
+      "args": [
+        "receptacle",
+        "source"
+      ],
+      "preconditions": [
+        "source_has_contents_or_source_on"
+      ],
+      "effects": [
+        "receptacle_has_contents"
+      ]
+    }
+  },
+  "flip": {
+    "definition": {
+      "args": [
+        "object",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_flipped"
+      ]
+    }
+  },
+  "fold": {
+    "definition": {
+      "args": [
+        "object",
+        "tool?"
+      ],
+      "preconditions": [
+        "object_foldable",
+        "IF tool THEN agent_holding_tool",
+        "IF NOT tool THEN agent_holding_object"
+      ],
+      "effects": [
+        "object_folded"
+      ]
+    }
+  },
+  "freeze": {
+    "definition": {
+      "args": [
+        "object",
+        "freezer"
+      ],
+      "preconditions": [
+        "freezer_on",
+        "object_in_freezer"
+      ],
+      "effects": [
+        "object_frozen",
+        "time_passed"
+      ]
+    }
+  },
+  "fry": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "receptacle_has_oil",
+        "object_in_receptacle"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_fried",
+        "object_hot"
+      ]
+    }
+  },
+  "grab": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "agent_hands_empty",
+        "object_grabbable"
+      ],
+      "effects": [
+        "agent_holding_object"
+      ]
+    }
+  },
+  "grate": {
+    "definition": {
+      "args": [
+        "object",
+        "tool",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_is_grater",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "grated_object_in_target"
+      ]
+    }
+  },
+  "grill": {
+    "definition": {
+      "args": [
+        "object",
+        "appliance"
+      ],
+      "preconditions": [
+        "appliance_on",
+        "object_on_appliance"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_grilled",
+        "object_hot"
+      ]
+    }
+  },
+  "heat": {
+    "definition": {
+      "args": [
+        "object?",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "IF object THEN object_in_receptacle"
+      ],
+      "effects": [
+        "receptacle_hot",
+        "contents_hot",
+        "IF object THEN object_hot"
+      ]
+    }
+  },
+  "preheat": {
+    "definition": {
+      "args": [
+        "appliance",
+        "temperature"
+      ],
+      "preconditions": [
+        "appliance_off"
+      ],
+      "effects": [
+        "appliance_on",
+        "appliance_at_temperature",
+        "time_passed"
+      ]
+    }
+  },
+  "mash": {
+    "definition": {
+      "args": [
+        "object",
+        "tool",
+        "receptacle"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_mashed"
+      ]
+    }
+  },
+  "mince": {
+    "definition": {
+      "args": [
+        "object",
+        "cutting_board",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_sharp",
+        "object_on_cutting_board",
+        "object_cuttable"
+      ],
+      "effects": [
+        "object_minced",
+        "object_mince_created"
+      ]
+    }
+  },
+  "mix": {
+    "definition": {
+      "args": [
+        "receptacle",
+        "tool?"
+      ],
+      "preconditions": [
+        "receptacle_has_contents",
+        "IF tool THEN agent_holding_tool"
+      ],
+      "effects": [
+        "contents_mixed"
+      ]
+    }
+  },
+  "open": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_openable",
+        "object_closed"
+      ],
+      "effects": [
+        "object_open"
+      ]
+    }
+  },
+  "peel": {
+    "definition": {
+      "args": [
+        "object",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_peeled",
+        "peels_removed"
+      ]
+    }
+  },
+  "pierce": {
+    "definition": {
+      "args": [
+        "object",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_pierced",
+        "object_punctured"
+      ]
+    }
+  },
+  "indent": {
+    "definition": {
+      "args": [
+        "object",
+        "tool?"
+      ],
+      "preconditions": [
+        "object_shapeable",
+        "IF tool THEN agent_holding_tool"
+      ],
+      "effects": [
+        "object_indented"
+      ]
+    }
+  },
+  "pour": {
+    "definition": {
+      "args": [
+        "source",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_source",
+        "source_is_receptacle_or_pourable",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "target_has_source",
+        "source_reduced"
+      ]
+    }
+  },
+  "press": {
+    "definition": {
+      "args": [
+        "object",
+        "tool",
+        "target?"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "IF target THEN target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "liquid_extracted",
+        "IF target THEN juice_in_target"
+      ]
+    }
+  },
+  "put_on": {
+    "definition": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object"
+      ],
+      "effects": [
+        "object_on_target",
+        "agent_hands_empty"
+      ]
+    }
+  },
+  "put_in": {
+    "definition": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "object_in_target",
+        "agent_hands_empty"
+      ]
+    }
+  },
+  "rest": {
+    "definition": {
+      "args": [
+        "object",
+        "duration"
+      ],
+      "preconditions": [
+        "object_cooked"
+      ],
+      "effects": [
+        "object_rested",
+        "object_cooked"
+      ]
+    }
+  },
+  "serve": {
+    "definition": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "object_edible OR object_cooked OR object_is_seasoning OR object_is_condiment",
+        "target_is_receptacle_or_surface"
+      ],
+      "effects": [
+        "object_served",
+        "object_on_target"
+      ]
+    }
+  },
+  "rinse": {
+    "definition": {
+      "args": [
+        "object",
+        "water"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "water_on"
+      ],
+      "effects": [
+        "object_clean",
+        "object_wet"
+      ]
+    }
+  },
+  "roast": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle",
+        "appliance"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "receptacle_in_appliance",
+        "appliance_on"
+      ],
+      "effects": [
+        "object_roasted",
+        "object_cooked",
+        "object_hot"
+      ]
+    }
+  },
+  "scoop": {
+    "definition": {
+      "args": [
+        "object",
+        "source",
+        "tool",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "object_in_source",
+        "object_scoopable",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "object_in_target"
+      ]
+    }
+  },
+  "set_temp": {
+    "definition": {
+      "args": [
+        "appliance",
+        "temperature"
+      ],
+      "preconditions": [
+        "appliance_on"
+      ],
+      "effects": [
+        "appliance_set_to_temperature"
+      ]
+    }
+  },
+  "set_timer": {
+    "definition": {
+      "args": [
+        "appliance",
+        "duration"
+      ],
+      "preconditions": [
+        "appliance_on"
+      ],
+      "effects": [
+        "timer_running"
+      ]
+    }
+  },
+  "shake": {
+    "definition": {
+      "args": [
+        "container"
+      ],
+      "preconditions": [
+        "container_closed",
+        "container_has_contents",
+        "agent_holding_container"
+      ],
+      "effects": [
+        "contents_mixed"
+      ]
+    }
+  },
+  "shape": {
+    "definition": {
+      "args": [
+        "object",
+        "surface?"
+      ],
+      "preconditions": [
+        "object_shapeable",
+        "IN surface THEN object_on_surface",
+        "IF NOT surface THEN agent_holding_object"
+      ],
+      "effects": [
+        "object_shaped"
+      ]
+    }
+  },
+  "simmer": {
+    "definition": {
+      "args": [
+        "object?",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "receptacle_has_liquid",
+        "IF object THEN object_in_receptacle"
+      ],
+      "effects": [
+        "IF object THEN object_cooked",
+        "IF object THEN object_hot",
+        "liquid_hot",
+        "contents_simmering"
+      ]
+    }
+  },
+  "slice": {
+    "definition": {
+      "args": [
+        "object",
+        "cutting_board",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_sharp",
+        "object_on_cutting_board",
+        "object_cuttable"
+      ],
+      "effects": [
+        "object_sliced",
+        "object_slices_created"
+      ]
+    }
+  },
+  "soak": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "receptacle_has_liquid"
+      ],
+      "effects": [
+        "object_soaked"
+      ]
+    }
+  },
+  "spread": {
+    "definition": {
+      "args": [
+        "object",
+        "target",
+        "tool"
+      ],
+      "preconditions": [
+        "object_spreadable",
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_applied_to_target"
+      ]
+    }
+  },
+  "squeeze": {
+    "definition": {
+      "args": [
+        "source",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_source",
+        "source_has_contents",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "contents_squeezed",
+        "contents_in_target"
+      ]
+    }
+  },
+  "juice": {
+    "definition": {
+      "args": [
+        "object",
+        "appliance"
+      ],
+      "preconditions": [
+        "appliance_on",
+        "object_in_appliance"
+      ],
+      "effects": [
+        "juice_extracted"
+      ]
+    }
+  },
+  "steam": {
+    "definition": {
+      "args": [
+        "object",
+        "steamer",
+        "pot",
+        "heatsource"
+      ],
+      "preconditions": [
+        "object_in_steamer",
+        "steamer_in_pot",
+        "water_in_pot",
+        "pot_on_heatsource",
+        "heatsource_on"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_steamed",
+        "object_hot"
+      ]
+    }
+  },
+  "stir": {
+    "definition": {
+      "args": [
+        "receptacle",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "receptacle_has_contents"
+      ],
+      "effects": [
+        "contents_stirred",
+        "contents_mixed"
+      ]
+    }
+  },
+  "strain": {
+    "definition": {
+      "args": [
+        "source",
+        "filter",
+        "target"
+      ],
+      "preconditions": [
+        "source_is_receptacle_or_open_container",
+        "source_has_contents",
+        "filter_clean",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "liquid_in_target",
+        "solid_in_filter"
+      ]
+    }
+  },
+  "switch_off": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_is_appliance_or_water",
+        "object_on"
+      ],
+      "effects": [
+        "object_off"
+      ]
+    }
+  },
+  "switch_on": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_is_appliance_or_water",
+        "object_off"
+      ],
+      "effects": [
+        "object_on"
+      ]
+    }
+  },
+  "take_out": {
+    "definition": {
+      "args": [
+        "object",
+        "container",
+        "tool?"
+      ],
+      "preconditions": [
+        "object_in_container",
+        "container_open",
+        "IF tool THEN agent_holding_tool",
+        "IF NOT tool THEN agent_hands_empty"
+      ],
+      "effects": [
+        "object_removed_from_container",
+        "agent_holding_object"
+      ]
+    }
+  },
+  "toast": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "receptacle_on_heatsource",
+        "heatsource_on"
+      ],
+      "effects": [
+        "object_toasted",
+        "object_cooked",
+        "object_hot"
+      ]
+    }
+  },
+  "transfer": {
+    "definition": {
+      "args": [
+        "object",
+        "target",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "target_is_receptacle_or_surface"
+      ],
+      "effects": [
+        "object_at_target"
+      ]
+    }
+  },
+  "uncover": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_covered"
+      ],
+      "effects": [
+        "object_uncovered"
+      ]
+    }
+  },
+  "unwrap": {
+    "definition": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_wrapped"
+      ],
+      "effects": [
+        "wrap_removed",
+        "object_unwrapped"
+      ]
+    }
+  },
+  "wait": {
+    "definition": {
+      "args": [
+        "duration"
+      ],
+      "preconditions": [],
+      "effects": [
+        "time_passed"
+      ]
+    }
+  },
+  "walk": {
+    "definition": {
+      "args": [
+        "location"
+      ],
+      "preconditions": [],
+      "effects": [
+        "agent_at_location"
+      ]
+    }
+  },
+  "wash": {
+    "definition": {
+      "args": [
+        "object",
+        "water"
+      ],
+      "preconditions": [
+        "object_dirty",
+        "agent_holding_object",
+        "water_on"
+      ],
+      "effects": [
+        "object_clean",
+        "object_wet"
+      ]
+    }
+  },
+  "whisk": {
+    "definition": {
+      "args": [
+        "receptacle",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "receptacle_has_contents"
+      ],
+      "effects": [
+        "contents_whisked",
+        "mixture_smoother"
+      ]
+    }
+  },
+  "wrap": {
+    "definition": {
+      "args": [
+        "object",
+        "wrap_material"
+      ],
+      "preconditions": [
+        "agent_holding_wrap_material"
+      ],
+      "effects": [
+        "object_wrapped"
+      ]
+    }
+  },
+  "break": {
+    "definition": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "object_breakable"
+      ],
+      "effects": [
+        "object_broken",
+        "object_in_receptacle",
+        "agent_hands_empty"
+      ]
+    }
+  },
+  "crush": {
+    "definition": {
+      "args": [
+        "object",
+        "tool?"
+      ],
+      "preconditions": [
+        "IF tool THEN agent_holding_tool",
+        "IF NOT tool THEN agent_holding_object"
+      ],
+      "effects": [
+        "object_crushed"
+      ]
+    }
+  },
+  "grind": {
+    "definition": {
+      "args": [
+        "object",
+        "grinder"
+      ],
+      "preconditions": [
+        "grinder_on",
+        "object_in_grinder"
+      ],
+      "effects": [
+        "object_ground"
+      ]
+    }
+  },
+  "spray": {
+    "definition": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "object_sprayable"
+      ],
+      "effects": [
+        "target_coated"
+      ]
+    }
+  },
+  "roll": {
+    "definition": {
+      "args": [
+        "object",
+        "coating",
+        "receptacle"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "coating_in_receptacle"
+      ],
+      "effects": [
+        "object_coated_with_coating"
+      ]
+    }
+  },
+  "roll_out": {
+    "definition": {
+      "args": [
+        "object",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "object_on_surface",
+        "object_shapeable"
+      ],
+      "effects": [
+        "object_flattened"
+      ]
+    }
+  },
+  "combine": {
+    "definition": {
+      "args": [
+        "container",
+        "product_name"
+      ],
+      "preconditions": [
+        "container_has_contents"
+      ],
+      "effects": [
+        "product_created_in_container"
+      ]
+    }
+  }
+}
