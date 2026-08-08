@@ -1,0 +1,1024 @@
+{
+  "environment": "kitchen",
+  "initial_objects": [
+    {
+      "id": 1,
+      "class_name": "pot",
+      "properties": [
+        "grabbable",
+        "heatable",
+        "receptacle"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "pan",
+      "properties": [
+        "grabbable",
+        "heatable",
+        "receptacle"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "baking_dish",
+      "properties": [
+        "grabbable",
+        "oven_safe",
+        "receptacle"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "colander",
+      "properties": [
+        "grabbable",
+        "receptacle",
+        "filter"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "spoon",
+      "properties": [
+        "grabbable",
+        "tool"
+      ],
+      "states": [
+        "clean"
+      ],
+      "location": "drawer"
+    },
+    {
+      "id": 1,
+      "class_name": "spatula",
+      "properties": [
+        "grabbable",
+        "tool"
+      ],
+      "states": [
+        "clean"
+      ],
+      "location": "drawer"
+    },
+    {
+      "id": 1,
+      "class_name": "aluminum_foil",
+      "properties": [
+        "grabbable",
+        "wrap_material",
+        "covering",
+        "foldable"
+      ],
+      "states": [
+        "clean"
+      ],
+      "location": "drawer"
+    },
+    {
+      "id": 1,
+      "class_name": "oil",
+      "properties": [
+        "edible",
+        "grabbable",
+        "pourable",
+        "spreadable",
+        "sprayable"
+      ],
+      "states": [
+        "full"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 1,
+      "class_name": "water",
+      "properties": [
+        "switchable",
+        "fillable_source"
+      ],
+      "states": [
+        "off"
+      ],
+      "location": "sink"
+    },
+    {
+      "id": 1,
+      "class_name": "salt",
+      "properties": [
+        "edible",
+        "grabbable",
+        "pourable",
+        "seasoning"
+      ],
+      "states": [
+        "full"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 1,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 2,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 3,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 4,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 5,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 6,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 7,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 8,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 9,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 10,
+      "class_name": "lasagna_noodle",
+      "properties": [
+        "grabbable",
+        "breakable"
+      ],
+      "states": [
+        "dry",
+        "uncooked"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 1,
+      "class_name": "sausage",
+      "properties": [
+        "cuttable",
+        "grabbable",
+        "protein"
+      ],
+      "states": [
+        "raw",
+        "whole"
+      ],
+      "location": "fridge"
+    },
+    {
+      "id": 1,
+      "class_name": "ground_beef",
+      "properties": [
+        "grabbable",
+        "protein"
+      ],
+      "states": [
+        "raw"
+      ],
+      "location": "fridge"
+    },
+    {
+      "id": 1,
+      "class_name": "marinara_sauce",
+      "properties": [
+        "condiment",
+        "grabbable",
+        "pourable"
+      ],
+      "states": [
+        "full"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 2,
+      "class_name": "marinara_sauce",
+      "properties": [
+        "condiment",
+        "grabbable",
+        "pourable"
+      ],
+      "states": [
+        "full"
+      ],
+      "location": "pantry"
+    },
+    {
+      "id": 1,
+      "class_name": "cottage_cheese",
+      "properties": [
+        "edible",
+        "grabbable",
+        "pourable",
+        "scoopable"
+      ],
+      "states": [
+        "full",
+        "cold"
+      ],
+      "location": "fridge"
+    },
+    {
+      "id": 1,
+      "class_name": "ricotta",
+      "properties": [
+        "edible",
+        "grabbable",
+        "cuttable",
+        "spreadable"
+      ],
+      "states": [
+        "full",
+        "cold"
+      ],
+      "location": "fridge"
+    },
+    {
+      "id": 1,
+      "class_name": "mozzarella",
+      "properties": [
+        "edible",
+        "cuttable",
+        "grabbable"
+      ],
+      "states": [
+        "whole",
+        "cold"
+      ],
+      "location": "fridge"
+    },
+    {
+      "id": 1,
+      "class_name": "bowl",
+      "properties": [
+        "grabbable",
+        "receptacle",
+        "microwave_safe"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 2,
+      "class_name": "bowl",
+      "properties": [
+        "grabbable",
+        "receptacle",
+        "microwave_safe"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "oven",
+      "properties": [
+        "container",
+        "heatsource",
+        "openable",
+        "receptacle",
+        "switchable"
+      ],
+      "states": [
+        "closed",
+        "empty",
+        "off"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "stove",
+      "properties": [
+        "heatsource",
+        "surface",
+        "switchable"
+      ],
+      "states": [
+        "off"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "sink",
+      "properties": [
+        "receptacle",
+        "drain"
+      ],
+      "states": [
+        "empty"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "pantry",
+      "properties": [
+        "container",
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "fridge",
+      "properties": [
+        "container",
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed",
+        "on"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "counter",
+      "properties": [
+        "surface"
+      ],
+      "states": [
+        "clean"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "freezer",
+      "properties": [
+        "container",
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed",
+        "on"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "microwave",
+      "properties": [
+        "heatsource",
+        "openable",
+        "receptacle",
+        "switchable"
+      ],
+      "states": [
+        "closed",
+        "empty",
+        "off"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "knife",
+      "properties": [
+        "grabbable",
+        "sharp",
+        "tool"
+      ],
+      "states": [
+        "clean"
+      ],
+      "location": "drawer"
+    },
+    {
+      "id": 1,
+      "class_name": "plate",
+      "properties": [
+        "grabbable",
+        "receptacle",
+        "surface"
+      ],
+      "states": [
+        "clean",
+        "empty"
+      ],
+      "location": "cabinet"
+    },
+    {
+      "id": 1,
+      "class_name": "cabinet",
+      "properties": [
+        "container",
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "drawer",
+      "properties": [
+        "container",
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed"
+      ],
+      "location": "kitchen"
+    },
+    {
+      "id": 1,
+      "class_name": "trash_bin",
+      "properties": [
+        "openable",
+        "receptacle"
+      ],
+      "states": [
+        "closed"
+      ],
+      "location": "kitchen"
+    }
+  ],
+  "action_definitions": {
+    "walk": {
+      "args": [
+        "location"
+      ],
+      "preconditions": [],
+      "effects": [
+        "agent_at_location"
+      ]
+    },
+    "open": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_openable",
+        "object_closed"
+      ],
+      "effects": [
+        "object_open"
+      ]
+    },
+    "close": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_openable",
+        "object_open"
+      ],
+      "effects": [
+        "object_closed"
+      ]
+    },
+    "grab": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "agent_hands_empty",
+        "object_grabbable"
+      ],
+      "effects": [
+        "agent_holding_object"
+      ]
+    },
+    "fill": {
+      "args": [
+        "receptacle",
+        "source"
+      ],
+      "preconditions": [
+        "source_has_contents_or_source_on"
+      ],
+      "effects": [
+        "receptacle_has_contents"
+      ]
+    },
+    "boil": {
+      "args": [
+        "object?",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "receptacle_has_liquid",
+        "IF object THEN object_in_receptacle"
+      ],
+      "effects": [
+        "contents_boiling",
+        "IF object THEN object_cooked",
+        "IF object THEN object_hot"
+      ]
+    },
+    "wait": {
+      "args": [
+        "duration"
+      ],
+      "preconditions": [],
+      "effects": [
+        "time_passed"
+      ]
+    },
+    "drain": {
+      "args": [
+        "object",
+        "receptacle"
+      ],
+      "preconditions": [
+        "object_in_receptacle",
+        "receptacle_has_liquid"
+      ],
+      "effects": [
+        "liquid_removed",
+        "object_drained"
+      ]
+    },
+    "rinse": {
+      "args": [
+        "object",
+        "water"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "water_on"
+      ],
+      "effects": [
+        "object_clean",
+        "object_wet"
+      ]
+    },
+    "spray": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "object_sprayable"
+      ],
+      "effects": [
+        "target_coated"
+      ]
+    },
+    "scoop": {
+      "args": [
+        "object",
+        "source",
+        "tool",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "object_in_source",
+        "object_scoopable",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "object_in_target"
+      ]
+    },
+    "mix": {
+      "args": [
+        "receptacle",
+        "tool?"
+      ],
+      "preconditions": [
+        "receptacle_has_contents",
+        "IF tool THEN agent_holding_tool"
+      ],
+      "effects": [
+        "contents_mixed"
+      ]
+    },
+    "spread": {
+      "args": [
+        "object",
+        "target",
+        "tool"
+      ],
+      "preconditions": [
+        "object_spreadable",
+        "agent_holding_tool"
+      ],
+      "effects": [
+        "object_applied_to_target"
+      ]
+    },
+    "cover": {
+      "args": [
+        "object",
+        "covering"
+      ],
+      "preconditions": [
+        "agent_holding_covering",
+        "object_on_surface_or_in_container"
+      ],
+      "effects": [
+        "object_covered",
+        "agent_hands_empty"
+      ]
+    },
+    "uncover": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_covered"
+      ],
+      "effects": [
+        "object_uncovered"
+      ]
+    },
+    "bake": {
+      "args": [
+        "object",
+        "receptacle",
+        "appliance",
+        "duration"
+      ],
+      "preconditions": [
+        "appliance_on",
+        "object_in_receptacle",
+        "receptacle_in_appliance"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_baked",
+        "object_hot"
+      ]
+    },
+    "cool": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_hot"
+      ],
+      "effects": [
+        "object_cooled_to_room_temp",
+        "time_passed"
+      ]
+    },
+    "cut": {
+      "args": [
+        "object",
+        "cutting_board",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "tool_sharp",
+        "object_cuttable",
+        "object_on_cutting_board"
+      ],
+      "effects": [
+        "object_cut",
+        "object_pieces_created"
+      ]
+    },
+    "fry": {
+      "args": [
+        "object",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "receptacle_has_oil",
+        "object_in_receptacle"
+      ],
+      "effects": [
+        "object_cooked",
+        "object_fried",
+        "object_hot"
+      ]
+    },
+    "refrigerate": {
+      "args": [
+        "object",
+        "fridge"
+      ],
+      "preconditions": [
+        "fridge_on",
+        "object_in_fridge"
+      ],
+      "effects": [
+        "object_chilled",
+        "time_passed"
+      ]
+    },
+    "discard": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "target_is_trash_bin"
+      ],
+      "effects": [
+        "object_disposed",
+        "object_in_target",
+        "agent_hands_empty"
+      ]
+    },
+    "heat": {
+      "args": [
+        "object?",
+        "receptacle",
+        "heatsource"
+      ],
+      "preconditions": [
+        "receptacle_on_heatsource",
+        "heatsource_on",
+        "IF object THEN object_in_receptacle"
+      ],
+      "effects": [
+        "receptacle_hot",
+        "contents_hot",
+        "IF object THEN object_hot"
+      ]
+    },
+    "pour": {
+      "definition": {
+        "args": [
+          "source",
+          "target"
+        ],
+        "preconditions": [
+          "agent_holding_source",
+          "source_is_receptacle_or_pourable",
+          "target_is_receptacle_or_open_container"
+        ],
+        "effects": [
+          "target_has_source",
+          "source_reduced"
+        ]
+      }
+    },
+    "put_on": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object"
+      ],
+      "effects": [
+        "object_on_target",
+        "agent_hands_empty"
+      ]
+    },
+    "put_in": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "agent_holding_object",
+        "target_is_receptacle_or_open_container"
+      ],
+      "effects": [
+        "object_in_target",
+        "agent_hands_empty"
+      ]
+    },
+    "serve": {
+      "args": [
+        "object",
+        "target"
+      ],
+      "preconditions": [
+        "object_edible OR object_cooked OR object_is_seasoning OR object_is_condiment",
+        "target_is_receptacle_or_surface"
+      ],
+      "effects": [
+        "object_served",
+        "object_on_target"
+      ]
+    },
+    "switch_off": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_is_appliance_or_water",
+        "object_on"
+      ],
+      "effects": [
+        "object_off"
+      ]
+    },
+    "switch_on": {
+      "args": [
+        "object"
+      ],
+      "preconditions": [
+        "object_is_appliance_or_water",
+        "object_off"
+      ],
+      "effects": [
+        "object_on"
+      ]
+    },
+    "take_out": {
+      "args": [
+        "object",
+        "container",
+        "tool?"
+      ],
+      "preconditions": [
+        "object_in_container",
+        "container_open",
+        "IF tool THEN agent_holding_tool",
+        "IF NOT tool THEN agent_holding_object"
+      ],
+      "effects": [
+        "object_removed_from_container",
+        "agent_holding_object"
+      ]
+    },
+    "transfer": {
+      "args": [
+        "object",
+        "target",
+        "tool"
+      ],
+      "preconditions": [
+        "agent_holding_tool",
+        "target_is_receptacle_or_surface"
+      ],
+      "effects": [
+        "object_at_target"
+      ]
+    },
+    "wash": {
+      "args": [
+        "object",
+        "water"
+      ],
+      "preconditions": [
+        "object_dirty",
+        "agent_holding_object",
+        "water_on"
+      ],
+      "effects": [
+        "object_clean",
+        "object_wet"
+      ]
+    },
+    "combine": {
+      "args": [
+        "container",
+        "product_name"
+      ],
+      "preconditions": [
+        "container_has_contents"
+      ],
+      "effects": [
+        "product_created_in_container"
+      ]
+    }
+  },
+  "agent": {
+    "id": 1,
+    "location": "kitchen",
+    "holding": null,
+    "states": [
+      "hands_empty"
+    ]
+  }
+}
